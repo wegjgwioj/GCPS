@@ -5,7 +5,7 @@ import shutil
 # ================= 核心配置区域 =================
 
 # 1. 基础路径
-BASE_DIR = r".\nlptask\data"
+BASE_DIR = r"GCPS/step1 data clean/orign data"
 
 # 2. 当前任务文件夹
 # 选项: "德意", "日韩沙特印尼"

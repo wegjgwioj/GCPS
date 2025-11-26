@@ -58,6 +58,6 @@ def process_csv(file_path):
 if __name__ == "__main__":
     # 设置文件路径
     # 注意：Windows路径建议在引号前加 r，或者将 \ 改为 \\
-    target_file = r".\data\英国\英国.csv"
+    target_file = r"GCPS/step1 data clean/orign data/英国/英国.csv"
     
     process_csv(target_file)

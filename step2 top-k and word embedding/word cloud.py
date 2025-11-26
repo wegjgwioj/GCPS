@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 
 # ================= 配置区域 =================
 
-INPUT_DIR = r"\TOP-K keyword"
-OUTPUT_DIR = r"\Result_Visualization"
+INPUT_DIR = r"step2 top-k and word embedding/TOP-K keyword"
+OUTPUT_DIR = r"step2 top-k and word embedding/Result_Visualization"
 FONT_PATH = r"C:\Windows\Fonts\simhei.ttf" 
 
 # 【配置 1】优先录取的 DF 阈值
