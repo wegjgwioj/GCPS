@@ -70,7 +70,7 @@ similarity_matrix = cosine_similarity(df_matrix)
 # ================= 4. 输出结果 =================
 # 4.1 保存 Excel
 df_sim = pd.DataFrame(similarity_matrix, index=df_matrix.index, columns=df_matrix.index)
-output_file = 'Task2_Weighted_Cosine_Similarity.xlsx'
+output_file = 'Weighted_Cosine_Similarity.xlsx'
 df_sim.to_excel(output_file)
 print(f"\n[成功] 相似度矩阵已保存: {output_file}")
 
@@ -78,8 +78,7 @@ print(f"\n[成功] 相似度矩阵已保存: {output_file}")
 try:
     plt.figure(figsize=(12, 10))
     # 设置中文支持
-    plt.rcParams['font.sans-serif'] = ['SimHei'] # Windows
-    # plt.rcParams['font.sans-serif'] = ['Arial Unicode MS'] # Mac (如果是Mac请取消这行注释)
+    plt.rcParams['font.sans-serif'] = ['SimHei']
     plt.rcParams['axes.unicode_minus'] = False
     
     # 绘制热力图
